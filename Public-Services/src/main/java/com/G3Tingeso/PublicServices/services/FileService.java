@@ -28,8 +28,7 @@ public class FileService {
         fileModel.setContentType(file.getContentType());
         fileModel.setData(file.getBytes());
         fileModel.setSize(file.getSize());
-
-        fileRepository.save(file);
+        fileRepository.save(fileModel);
     }
 
     public Optional<FileModel> getFile(String id) {

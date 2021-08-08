@@ -11,7 +11,7 @@ import javax.persistence.Table;
 import org.hibernate.annotations.GenericGenerator;
 
 @Entity
-@Table(name = "FILES")
+@Table(name = "files")
 public class FileModel {
 
     @Id
