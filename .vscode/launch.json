@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-PublicServicesApplication<Public-Services>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.G3Tingeso.PublicServices.PublicServicesApplication",
+            "projectName": "Public-Services",
+            "args": ""
+        }
+    ]
+}
